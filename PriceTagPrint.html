@@ -1,0 +1,78 @@
+<!-- 
+* Without permission Copay, Change, Udate/Upgrade of this code is totally restricted by Author
+
+** Author: Mohammad Ismail
+** Contact : 01750 921421
+** Email : ismail.chatme@gmail.com
+
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" href="asset/printicon.png" type="image/png" sizes="16x16">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Barcode Generate - Mohammad Ismail</title>
+	<link rel="stylesheet" type="text/css" href="asset/style.css">
+</head>
+<body>
+<div class="container">
+<fieldset>
+	<legend>Generate Price Tag</legend>
+
+<div class="input-group input-group-sm mb-3">
+	<div class="input-group-prepend">
+		<label for="date">Price : </label>
+	</div>
+	<input type="number" name="price" id="price" class="input_control" placeholder="00.00">
+</div>
+
+<div class="input-group input-group-sm mb-3">
+	<div class="input-group-prepend">
+		<label for="date">Brand : </label>
+	</div>
+	<input type="text" name="brand" id="brand" class="input_control" placeholder="Brand Name">
+</div>
+<div class="input-group input-group-sm mb-3">
+	<div class="input-group-prepend">
+		<label for="date">Start From (Code Serial): </label>
+	</div>
+	<input type="number" name="count" id="start" class="input_control" placeholder="1000">
+</div>
+<div class="input-group input-group-sm mb-3">
+	<div class="input-group-prepend">
+		<label for="count">How many? : </label>
+	</div>
+	<input type="text" name="count" id="count" class="input_control" placeholder="How many?">
+</div>
+<div class="clearfix">
+	<button type="button" id="generate_btn" class="btn btn_primary float-right mt-3">Make</button>
+</div>
+</fieldset>
+</div>
+<div class="content_area" id="editor">
+
+</div>
+
+<button class="print_btn" onclick="window.print();"></button>
+
+<!-- <div class="single_tag">
+	<div class="bar_heading">
+		Shop Name
+	</div>
+	<div class="barcode">
+		code
+	</div>
+	<div class="pprice">
+		4353.098 tk.
+	</div>
+</div> -->
+
+
+
+
+ <script type="text/javascript" src="asset/jquery3.5.1.js"></script>
+<script type="text/javascript" src="asset/script.js"></script>
+
+</body>
+</html>
